@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+body{
+    width: 90%;
+    margin: auto;
+    margin-top: 5vh;
+    padding: 4vh 4vw;
+    border: 7px solid rgba(255, 69, 0, 0.7);
+}
+
+.logos img{
+    height: 15vh;
+}
+
+.logos{
+    display: flex;
+    justify-content: space-between;
+}
+
+h1{
+    font-size: 3vw;
+    margin: 9vh 0 5vh;
+    text-align: center;
+}
+
+big{
+    font-size: 1.8vw;
+    text-align: start;
+}
+
+.bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.5vw;
+    margin-top: 5vh;
+}
+
+.signature img{
+    height: 10vh;
+}
+
+.signature{
+    text-align: center;
+    font-size: 1.5vw;
+}

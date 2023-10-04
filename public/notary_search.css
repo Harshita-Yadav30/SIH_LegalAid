@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(218, 217, 217);
+}
+
+header{
+    display: flex;
+    align-items: center;
+    padding: 0.3rem 0.8rem;
+    font-size: 1.5rem;
+    background-color: rgba(175, 175, 175, 0.83);
+}
+
+#logo{
+    height: 5rem;
+    border-radius: 10%;
+    margin-left: 2rem;
+}
+
+nav{
+    width: 21rem;
+    margin-left: 53rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#profile{
+    width: 3.5rem;
+    margin-left: 4rem;
+    cursor: pointer;
+}
+
+.picture{
+    width: 100%;
+    height: 50vh;
+    border: 2px solid black;
+    background-image: url(img.jpg);
+    background-position: center;
+    background-size: contain;
+}
+
+.page-title{
+    width: 90%;
+    height: 70%;
+    font-size: 7vw;
+    font-weight: 550;
+    text-align: center;
+    background-color: rgba(252, 250, 250, 0.5);
+    margin: auto;
+    margin-top: 7vh;
+}
+
+.page-title p{
+    padding-top: 10vh;
+}
+
+.container{
+    display: flex;
+}
+
+.side-bar{
+    width: 18%;
+    height: 158vh;
+    padding-top: 5vh;
+    background-color: rgba(175, 175, 175, 0.83);
+}
+
+.categories{
+    margin: 5vh 0;
+}
+
+big{
+    background-color: rgba(83, 83, 83, 0.7);
+    font-size: 2vw;
+    display: block;
+    margin: 3vh 0;
+    padding: 1vh 0 1vh 1.5vw;
+}
+
+.cat{
+    font-size: 1.5vw;
+    display: flex;
+}
+
+input{
+    width: 1.2vw;
+    margin: 0 1vw 0 1.5vw;
+}
+
+i{
+    color: black;
+    margin-bottom: 1vh;
+}
+
+.case-count{
+    padding-bottom: 10vh;
+}
+
+.main-page{
+    margin: auto;
+    margin-top: -1vh;
+    width: 72%;
+}
+
+.card{
+    text-align: center;
+    font-size: 1.5vw;
+    background-color: white;
+    padding: 4vh 3vw;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.card img{
+    width: 12vw;
+    border-radius: 50%;
+}
+
+.row{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10vh;
+}
+
+#last-row{
+    margin-bottom: 5vh;
+}
+
+button{
+    width: 8vw;
+    height: 6vh;
+    background-color: rgba(83, 83, 83, 0.7);
+    border: none;
+    border-radius: 2px;
+    font-size: 1.2vw;
+    font-weight: 600;
+    margin-top: 1vh;
+    cursor: pointer;
+}

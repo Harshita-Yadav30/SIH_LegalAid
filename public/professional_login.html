@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="professional_login.css">
+    <link rel="icon" href="logo.jpeg">
+    <title>LegalAid</title>
+</head>
+<body>
+    <header>
+        <img src="logo.jpeg" alt="Logo" id="logo">
+        <nav>
+            <a href="landing.html">Home</a>
+            <a href="#">About Us</a>
+            <a href="professional_home.html">Professionals</a>
+        </nav>
+    </header>
+
+    <div class="outer-container">
+        <div class="inner-container">
+            <div class="punch">
+                <big>Your Trustworthy</big>
+                <div class="below">
+                    <big>Source for</big>
+                    <big id="red">Legal Aid</big>
+                </div>
+            </div>
+            <div class="container">
+                <h1>Sign In as a Professional</h1>
+                <div class="top">
+                    <a href="create_account.html">Create Account</a>
+                </div>
+                <form action="dashboard.html" method="post">
+                    <div class="info">
+                        <big>Mobile Number</big>
+                        <input type="text" name="mobile">
+                        <big>Password</big>
+                        <input type="text" name="password">
+                    </div>
+                    <div class="checkbox-container">
+                        <input type="checkbox" name="" id="check">
+                        <p>Keep me signed in</p>
+                    </div>
+                    <div class="bottom">
+                        <button id="sign-in" type="submit">Sign In</button>
+                        <a href="#">Forgot Password?</a>
+                    </div>
+                </form>
+                <br>
+                <button id="back" onclick="window.location.href='landing.html'">Back</button>
+                <a href="login.html" id="other-signin">Sign In as a Client</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

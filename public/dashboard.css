@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(179,178,178);
+}
+
+.side-bar{
+    width: 18%;
+    height: 100%;
+    background-color: rgb(228, 225, 225);
+}
+
+span i{
+    font-size: 2.3vw;
+    background-color: rgb(228, 225, 225);
+    padding: 2vw 1vw 1vw 1.5vw;
+    cursor: pointer;
+}
+
+img{
+    width: 8vw;
+    margin: 0 5vw 0;
+    border-radius: 50%;
+}
+
+p{
+    text-align: center;
+    font-size: 1.5vw;
+    margin-bottom: 3vh;
+    background-color: rgb(228, 225, 225);
+}
+
+.commands{
+    display: flex;
+    flex-direction: column;
+    margin: 2.5vw 2vh;
+}
+
+.commands a{
+    width: 18vw;
+    padding: 1vh 0 1vh 2.5vw;
+    background-color: #686363;
+    border-radius: 0.2vw;
+    margin-left: -1vw;
+    margin-bottom: 0.3vh;
+    font-size: 1.5vw;
+    color: black;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.out{
+    margin-top: 10vh;
+    text-align: center;
+    font-size: 1.8vw;
+    color: black;
+    padding-bottom: 6vh;
+    background-color: rgb(228, 225, 225);
+    width: 100%;
+    cursor: pointer;
+}
+
+.cont{
+    height: 5.5vh;
+    /* background-color: #686363; */
+    background-color: rgb(228, 225, 225);
+    padding: 1vh 0;
+}
+
+.out a{
+    color: black;
+    background-color: rgb(228, 225, 225);
+    /* background-color: #686363; */
+}
+
+.out i{
+    background-color: rgb(228, 225, 225);
+    /* background-color: #686363; */
+}
+
+a{
+    text-decoration: none;
+}

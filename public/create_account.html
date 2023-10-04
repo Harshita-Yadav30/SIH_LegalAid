@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="create_account.css">
+    <link rel="icon" href="logo.jpeg">
+    <title>LegalAid</title>
+</head>
+<body>
+    <header>
+        <img src="logo.jpeg" alt="Logo" id="logo">
+        <nav>
+            <a href="landing.html">Home</a>
+            <a href="#">About Us</a>
+            <a href="professional_home.html">Professionals</a>
+        </nav>
+    </header>
+
+    <div class="outer-container">
+        <div class="inner-container">
+            <form action="/" class="container" method="post">
+                <div class="top">
+                    <h1>Create Account</h1>
+                </div>
+
+                <div class="hi">
+                    <div class="labels">
+                        <label for="">Name*</label>
+                        <label for="">Password*</label>
+                        <label for="">User Type*</label>
+                        <label for="">Mobile Number*</label>
+                        <label for="">E-Mail*</label>
+                        <label for="">Address</label>
+                        <label for="">City*</label>
+                        <label for="">State*</label>
+                    </div>
+
+                    <div class="inputs">
+                        <input type="text" name="name">
+                        <input type="text" name="password">
+                        <div class="user-type">
+                            <input type="radio" name="userType" value="0"><p>Client</p>
+                            <input type="radio" name="userType" value="1"><p>Professional</p>
+                        </div>
+                        <input type="text" name="mobile">
+                        <input type="text" name="email">
+                        <textarea type="text" id="address" name="address"></textarea>
+                        <input type="text" name="city">
+                        <input type="text" name="state">
+                    </div>
+                </div>
+                <br>
+                <button id="back" onclick="window.location.href='landing.html'">Back</button>
+                <button id="register" type="submit">Create</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

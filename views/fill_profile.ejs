@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/c8ffd88059.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="fill_profile.css">
+    <link rel="icon" href="logo.jpeg">
+    <title>LegalAid</title>
+</head>
+<body>
+    <i class="fa-solid fa-arrow-left" style="color: #686363; font-size: 2.5vw;" onclick="window.location.href='dashboard.html'"></i><br>
+    <div class="image">
+        <% if(locals.f){ %>
+            <img src="<%= locals.f %>" alt="Profile">
+        <% } else{ %>
+            <img src="profile.jpeg" alt="Profile">
+        <% } %>
+    </div>
+    <form id="pic" method="post" action="" enctype="multipart/form-data">
+        <input type="file" name="profile" id="profile">
+        <button type="submit" id="upload">Upload</button>
+    </form>
+
+    <form class="container" action="dashboard.html" method="post">
+        <button id="cont-title">SET YOUR PROFILE</button>
+
+        <div class="box">
+            <div class="labels">
+                <big>Name*</big>
+                <big>:</big>
+            </div>
+            <input type="text" name="name">
+        </div>
+
+        <div class="box">
+            <div class="labels">
+                <big>Email*</big>
+                <big>:</big>
+            </div>
+            <input type="text" name="email">
+        </div>
+
+        <div class="box">
+            <div class="labels">
+                <big>Phone*</big>
+                <big>:</big>
+            </div>
+            <input type="text" name="phone">
+        </div>
+
+        <div class="box">
+            <div class="labels">
+                <big>Address</big>
+                <big>:</big>
+            </div>
+            <textarea name="address" id="" cols="30" rows="10" class="larger"></textarea>
+        </div>
+
+        <div class="box">
+            <div class="labels">
+                <big>Qualifications</big>
+                <big>:</big>
+            </div>
+            <textarea name="qualification" id="" cols="30" rows="10" class="larger"></textarea>
+        </div>
+
+        <div class="box">
+            <div class="labels">
+                <big>Experience</big>
+                <big>:</big>
+            </div>
+            <textarea name="experience" id="" cols="30" rows="10" class="larger"></textarea>
+        </div>
+
+        <div class="box">
+            <div class="labels">
+                <big>Bio</big>
+                <big>:</big>
+            </div>
+            <textarea name="bio" id="" cols="30" rows="10" class="larger"></textarea>
+        </div>
+
+        <div class="box">
+            <div class="labels">
+                <big>Specialization</big>
+                <big>:</big>
+            </div>
+            <textarea name="specialization" id="" cols="30" rows="10" class="larger"></textarea>
+        </div>
+
+        <div class="box">
+            <div class="labels">
+                <big>Achievements</big>
+                <big>:</big>
+            </div>
+            <textarea name="achievement" id="" cols="30" rows="10" class="larger"></textarea>
+        </div>
+
+        <div class="box">
+            <div class="labels">
+                <big>About Fees</big>
+                <big>:</big>
+            </div>
+            <textarea name="fees" id="" cols="30" rows="10" class="larger"></textarea>
+        </div>
+
+        <button type="submit" id="save">Save</button>
+    </form>
+</body>
+</html>

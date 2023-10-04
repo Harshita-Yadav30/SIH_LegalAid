@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/c8ffd88059.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="professional_description.css">
+    <link rel="icon" href="logo.jpeg">
+    <title>LegalAid</title>
+</head>
+<body>
+    <header>
+        <img src="logo.jpeg" alt="Logo" id="logo">
+        <nav>
+            <a href="landing.html">Home</a>
+            <a href="#">About Us</a>
+            <a href="professional_home.html" id="professional">Professionals</a>
+        </nav>
+        <img src="profile.png" alt="Profile" id="profile" onclick="window.location.href='#'">
+    </header>
+
+    <form class="container" action="/professional_home" method="post">
+        <div class="top">
+            <div class="inner">
+                <i class="fa-solid fa-camera-retro" id="camera"></i>
+            </div>
+        </div>
+
+        <img src="profile.jpeg" alt="Profile" id="professional-photo">
+        <div class="info">
+            <big id="name"><%=locals.name%></big>
+            <p><%=locals.specialization%></p>
+            <p id="two">Talks about #criminaldefense, #criminaljustice, #abchamberofficial and #criminalpsychology</p>
+            <i><%=locals.city%>, India</i>
+        </div>
+
+        <div class="content" id="upper-content">
+            <div class="labels">
+                <i class="fa-solid fa-address-card"></i>
+                <big>About</big>
+            </div>
+            <p><%=locals.about%></p>
+        </div>
+
+        <div class="content">
+            <div class="labels">
+                <i class="fa-solid fa-user-graduate"></i>
+                <big>Education</big>
+            </div>
+            <p><%=locals.education%></p>
+        </div>
+
+        <div class="content">
+            <div class="labels">
+                <i class="fa-solid fa-graduation-cap"></i>
+                <big>Professional Experience</big>
+            </div>
+            <p><%=locals.experience%></p>
+        </div>
+
+        <div class="content">
+            <div class="labels">
+                <i class="fa-solid fa-award"></i>
+                <big>Certificates</big>
+            </div>
+            <p><i class="fa-solid fa-people-robbery"></i><%=locals.certificate%> <br>
+        </div>
+
+        <button type="submit" name="id" value=<%= id %>>Send Request</button>
+    </form>
+</body>
+</html>

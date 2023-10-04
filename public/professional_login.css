@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(197, 196, 196);
+}
+
+header{
+    display: flex;
+    align-items: center;
+    padding: 0.3rem 0.8rem;
+    font-size: 1.5rem;
+    background-color: rgba(175, 175, 175, 0.83);
+}
+
+#logo{
+    height: 5rem;
+    border-radius: 10%;
+    margin-left: 2rem;
+}
+
+nav{
+    width: 21rem;
+    margin-left: 57rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/* Page */
+.outer-container{
+    width: 100%;
+    background-image: url('bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.inner-container{
+    height: 40.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.punch{
+    margin-left: 7rem;
+}
+
+.below{
+    display: flex;
+}
+
+.punch big{
+    color: white;
+    font-size: 3rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#red{
+    margin-left: 0.5rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    color: red;
+}
+
+.container{
+    width: 40rem;
+    height: 35rem;
+    background-color: rgba(200, 200, 200, 0.75);
+    margin-right: 10rem;
+    padding: 2rem 3rem;
+}
+
+h1{
+    margin-bottom: 2rem;
+    font-size: 3rem;
+}
+
+.top{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.top a{
+    font-size: 1.6rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #0673F5;
+    margin-top: -1.5rem;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+}
+
+big{
+    margin-bottom: 0.5rem;
+    margin-left: 2rem;
+    font-size: 2rem;
+}
+
+input{
+    margin-bottom: 1.3rem;
+    margin-left: 1rem;
+    width: 22rem;
+    height: 2.5rem;
+    border-radius: 0.2rem;
+    border: none;
+}
+
+#check{
+    width: 1.3rem;
+}
+
+.checkbox-container{
+    display: flex;
+}
+
+.checkbox-container p{
+    margin-left: 0.3rem;
+    margin-top: 0.7rem;
+    font-size: 1.1rem;
+}
+
+.bottom{
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+.bottom a{
+    margin-top: 1rem;
+    margin-left: 4rem;
+    color: #0673F5;
+}
+
+#sign-in{
+    width: 9rem;
+    height: 2.8rem;
+    background-color: #0C3570;
+    color: white;
+    font-size: 1.5rem;
+    border: none;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+#back{
+    width: 4.5rem;
+    height: 2rem;
+    box-shadow: 0.15rem 0.15rem grey;
+    border: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-top: 2rem;
+    margin-left: -1rem;
+    cursor: pointer;
+}
+
+#other-signin{
+    font-size: 1.5rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #0673F5;
+    margin-left: 18rem;
+}

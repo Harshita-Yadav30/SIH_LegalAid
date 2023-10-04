@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(197, 196, 196);
+}
+
+header{
+    display: flex;
+    align-items: center;
+    padding: 0.3rem 0.8rem;
+    font-size: 1.5rem;
+    background-color: rgba(175, 175, 175, 0.83);
+}
+
+#logo{
+    height: 5rem;
+    border-radius: 10%;
+    margin-left: 2rem;
+}
+
+nav{
+    width: 21rem;
+    margin-left: 53rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#professional{
+    text-decoration: underline;
+    text-decoration-color: orangered;
+    text-decoration-thickness: 0.3rem;
+}
+
+#profile{
+    width: 3.5rem;
+    margin-left: 4rem;
+    cursor: pointer;
+}
+
+/* IMAGE */
+.picture{
+    background-image: url('picture2.jpg');
+    background-size: cover;
+    /* background-position: 80px; */
+    height: 45rem;
+}
+
+/* TITLES */
+
+.label{
+    display: flex;
+    font-size: 1.8rem;
+    margin-left: 3rem;
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+}
+
+.line{
+    height: 2.1rem;
+    width: 0.2rem;
+    margin-right: 0.5rem;
+    background-color: orangered;
+}
+
+/* PROFESSIONALS */
+.professionals{
+    display: flex;
+    padding: 4rem 0 4rem;
+    border-top: 0.1rem solid black;
+    border-bottom: 0.1rem solid black;
+}
+
+.professionals img{
+    width: 20rem;
+    margin-left: 3rem;
+    margin-right: 1rem;
+}
+
+.left-side{
+    margin-left: 5rem;
+}
+
+.right-side{
+    padding-top: 5rem;
+    font-size: 1.3rem;
+}
+
+button{
+    width: 15rem;
+    height: 2.8rem;
+    background-color: rgba(255, 69, 0,0.7);
+    margin: 5rem 4rem 0 0;
+    font-size: 1.8rem;
+    font-weight: 700;
+    border: none;
+    border-radius: 0.3rem;
+    cursor: pointer;
+}
+
+.btn{
+    display: flex;
+    justify-content: end;
+}
+
+/* FOOTER */
+footer{
+    padding: 2rem 0;
+    background-color: rgb(83, 83, 83);
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logos{
+    font-size: 2rem;
+    margin-left: 4rem;
+    margin-top: -1rem;
+}
+
+.logos i{
+    margin-right: 0.7rem;
+    cursor: pointer;
+}
+
+.right-box{
+    margin-right: 4rem;
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+    color: white;
+}
+
+#map{
+    width: 24rem;
+    height: 15rem;
+    margin-bottom: 2rem;
+    cursor: pointer;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+.info big{
+    margin-left: 4rem;
+    margin-bottom: 0.6rem;
+}

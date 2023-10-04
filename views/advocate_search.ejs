@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/c8ffd88059.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="advocate_search.css">
+    <link rel="icon" href="logo.jpeg">
+    <title>LegalAid</title>
+</head>
+<body>
+    <header>
+        <img src="logo.jpeg" alt="Logo" id="logo">
+        <nav>
+            <a href="landing.html">Home</a>
+            <a href="#">About Us</a>
+            <a href="professional_home.html" id="professional">Professionals</a>
+        </nav>
+        <img src="profile.png" alt="Profile" id="profile" onclick="window.location.href='#'">
+    </header>
+    <div class="picture">
+        <div class="page-title">
+            <p>Find Your Advocate Here</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="side-bar">
+            <div class="categories">
+                <big>Category</big>
+                <div class="cat">
+                    <input type="checkbox" name="" id="">
+                    <p>Criminal Cases</p>
+                </div>
+                <div class="cat">
+                    <input type="checkbox" name="" id="">
+                    <p>Family Court Cases</p>
+                </div>
+                <div class="cat">
+                    <input type="checkbox" name="" id="">
+                    <p>Civil Cases</p>
+                </div>
+                <div class="cat">
+                    <input type="checkbox" name="" id="">
+                    <p>Employment Cases</p>
+                </div>
+                <div class="cat">
+                    <input type="checkbox" name="" id="">
+                    <p>Business Cases</p>
+                </div>
+                <div class="cat">
+                    <input type="checkbox" name="" id="">
+                    <p>Juvenile Cases</p>
+                </div>
+                <div class="cat">
+                    <input type="checkbox" name="" id="">
+                    <p>Consumer Cases</p>
+                </div>
+                <div class="cat">
+                    <input type="checkbox" name="" id="">
+                    <p>Financial Cases</p>
+                </div>
+                <div class="cat">
+                    <input type="checkbox" name="" id="">
+                    <p>Education Cases</p>
+                </div>
+            </div>
+
+            <div class="ratings">
+                <big>Top Rated</big>
+                <div class="cat">
+                    <input type="checkbox" name="" id="">
+                    <span><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></span>
+                </div>
+                <div class="cat">
+                    <input type="checkbox" name="" id="">
+                    <span><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></span>
+                </div>
+                <div class="cat">
+                    <input type="checkbox" name="" id="">
+                    <span><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></span>
+                </div>
+                <div class="cat">
+                    <input type="checkbox" name="" id="">
+                    <span><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></span>
+                </div>
+            </div>
+
+            <div class="fees">
+                <big>Fees</big>
+                <div class="cat">
+                    <input type="checkbox" name="" id="">
+                    <p>Below 3000</p>
+                </div>
+                <div class="cat">
+                    <input type="checkbox" name="" id="">
+                    <p>3000 to 4000</p>
+                </div>
+                <div class="cat">
+                    <input type="checkbox" name="" id="">
+                    <p>4000 to 5000</p>
+                </div>
+                <div class="cat">
+                    <input type="checkbox" name="" id="">
+                    <p>5000 and Above</p>
+                </div>
+            </div>
+
+            <div class="case-count">
+                <big>Number of Cases</big>
+                <div class="cat">
+                    <input type="checkbox" name="" id="">
+                    <p>Below 5</p>
+                </div>
+                <div class="cat">
+                    <input type="checkbox" name="" id="">
+                    <p>5 to 10</p>
+                </div>
+                <div class="cat">
+                    <input type="checkbox" name="" id="">
+                    <p>10 to 15</p>
+                </div>
+                <div class="cat">
+                    <input type="checkbox" name="" id="">
+                    <p>15 and Above</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="main-page">
+            <div class="row">
+                <form class="card" action='/advocate_description' method="post">
+                    <img src="profile.jpeg" alt="Photo">
+                    <p class="name"><%=names[0]%></p>
+                    <p>LLB, Criminal Law</p>
+                    <button type="submit" name="card_number" value=<%= id[0] %>>View</button>
+                </form> 
+                <form class="card" action='/advocate_description' method="post">
+                    <img src="profile.jpeg" alt="Photo">
+                    <p class="name"><%=names[1]%></p>
+                    <p>LLB, Criminal Law</p>
+                    <button type="submit" name="card_number" value=<%= id[1] %>>View</button>
+                </form> 
+                <form class="card" action='/advocate_description' method="post">
+                    <img src="profile.jpeg" alt="Photo">
+                    <p class="name"><%=names[2]%></p>
+                    <p>LLB, Criminal Law</p>
+                    <button type="submit" name="card_number" value=<%= id[2] %>>View</button>
+                </form> 
+            </div>
+            <div class="row">
+                <form class="card" action='/advocate_description' method="post">
+                    <img src="profile.jpeg" alt="Photo">
+                    <p class="name"><%=names[3]%></p>
+                    <p>LLB, Criminal Law</p>
+                    <button type="submit" name="card_number" value=<%= id[3] %>>View</button>
+                </form> 
+                <form class="card" action='/advocate_description' method="post">
+                    <img src="profile.jpeg" alt="Photo">
+                    <p class="name"><%=names[4]%></p>
+                    <p>LLB, Criminal Law</p>
+                    <button type="submit" name="card_number" value=<%= id[4] %>>View</button>
+                </form> 
+                <form class="card" action='/advocate_description' method="post">
+                    <img src="profile.jpeg" alt="Photo">
+                    <p class="name"><%=names[5]%></p>
+                    <p>LLB, Criminal Law</p>
+                    <button type="submit" name="card_number" value=<%= id[5] %>>View</button>
+                </form> 
+            </div>
+            <div class="row" id="last-row">
+                <form class="card" action='/advocate_description' method="post">
+                    <img src="profile.jpeg" alt="Photo">
+                    <p class="name"><%=names[6]%></p>
+                    <p>LLB, Criminal Law</p>
+                    <button type="submit" name="card_number" value=<%= id[6] %>>View</button>
+                </form> 
+                <form class="card" action='/advocate_description' method="post">
+                    <img src="profile.jpeg" alt="Photo">
+                    <p class="name"><%=names[7]%></p>
+                    <p>LLB, Criminal Law</p>
+                    <button type="submit" name="card_number" value=<%= id[7] %>>View</button>
+                </form> 
+                <div class="card">
+                    <img src="loader.png" alt="Load More"><br>
+                    <button>Load More...</button>
+                </div> 
+            </div>
+        </div>
+    </div>
+</body>
+</html>

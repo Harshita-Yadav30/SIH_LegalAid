@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(197, 196, 196);
+}
+
+header{
+    display: flex;
+    align-items: center;
+    padding: 0.3rem 0.8rem;
+    font-size: 1.5rem;
+    background-color: rgba(175, 175, 175, 0.83);
+}
+
+#logo{
+    height: 5rem;
+    border-radius: 10%;
+    margin-left: 2rem;
+}
+
+nav{
+    width: 21rem;
+    margin-left: 57rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/* Page */
+.outer-container{
+    width: 100%;
+    background-image: url('bgd.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.inner-container{
+    height: 40.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container{
+    width: 45rem;
+    height: 38rem;
+    background-color: rgba(200, 200, 200, 0.4);
+    margin: auto;
+    padding: 2rem 3rem;
+    position: relative;
+    right: 2rem;
+}
+
+h1{
+    margin: auto;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    color: #0673F5;
+    padding: 1rem;
+    background-color: rgba(232, 229, 229, 1);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.top{
+    display: flex;
+}
+
+.top a{
+    font-size: 1.6rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #0673F5;
+    margin-top: 1.3rem;
+    margin-left: 13rem;
+}
+
+.hi{
+    width: 70%;
+    height: 70%;
+    margin-left: 0;
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.3rem;
+}
+
+.labels, .inputs{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+    width: 40%;
+}
+
+p{
+    width: 7.5rem;
+    background-color: rgba(232, 229, 229, 1);
+    margin-right: 2rem;
+    padding: 0.3rem;
+    border-radius: 0.2rem;
+    border-bottom: 0.15rem solid black;
+}
+
+.labels{
+    margin-left: 2rem;
+    color: rgba(232, 229, 229, 1);
+}
+
+.inputs{
+    width: 55%;
+}
+
+input{
+    width: 100%;
+    height: 1.8rem;
+    font-size: 1.3rem;
+    border-radius: 0.2rem;
+    border: none;
+    background-color: rgba(232, 229, 229, 1);
+}
+
+.user-type{
+    display: flex;
+    width: 100%;
+}
+
+#address{
+    width: 22rem;
+    height: 4rem;
+}
+
+#register{
+    width: 9rem;
+    height: 2.8rem;
+    background-color: #0C3570;
+    color: white;
+    font-size: 1.5rem;
+    border: none;
+    margin-top: 1rem;
+    margin-left: 25rem;
+    cursor: pointer;
+}
+
+#back{
+    width: 4.5rem;
+    height: 2rem;
+    box-shadow: 0.15rem 0.15rem grey;
+    border: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-top: 2rem;
+    margin-left: -1rem;
+    cursor: pointer;
+}
