@@ -27,7 +27,7 @@ app.use(express.static(path.join(path.resolve(),"uploads")));
 app.use(express.static(path.join(path.resolve(),"certificates")));
 
 app.get("/", (req,res) => {
-    return res.redirect("index.html");
+    return res.redirect("landing.html");
 });
 
 app.get("/dashboard.html", (req,res) => {
